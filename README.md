@@ -16,6 +16,27 @@
 
 ![alt text](/image/post.png)
 
+ - Request Body
+    ```
+    {
+        "customerLat": 11.232,
+        "customerLong": 23.445495,
+        "products": [
+            { 
+                "name": "Rice Bag",
+                "weight": 10
+            }
+        ],
+        "deliveryType": "standard"
+    }
+    ```
+- Response
+    ```
+    {
+        "shippingCharge": "9912.39"
+    }
+    ```
+
 
 ### Test Case
 

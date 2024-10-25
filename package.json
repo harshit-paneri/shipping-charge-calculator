@@ -1,0 +1,26 @@
+{
+  "name": "shipping_charge_cal",
+  "version": "1.0.0",
+  "description": "This application is REST API made for Shipping Charge Cal from location, mode of transport etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-paneri/shipping-charge-calculator.git"
+  },
+  "author": "Harshit Paneri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-paneri/shipping-charge-calculator/issues"
+  },
+  "homepage": "https://github.com/harshit-paneri/shipping-charge-calculator#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

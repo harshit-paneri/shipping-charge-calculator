@@ -9,7 +9,6 @@ app.get('/', (req, res) => {
   res.send('Shopping Charge Calculator');
 });
 
-
 app.post('/shipping-charge', (req, res) => {
   const { customerLat, customerLong, products, deliveryType } = req.body;
   
@@ -27,4 +26,4 @@ app.post('/shipping-charge', (req, res) => {
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
-}); 
+});

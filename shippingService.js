@@ -61,4 +61,4 @@ function calculateShippingCharge(customerLat, customerLong, products, deliveryTy
     return finalCharge;
 }
 
-module.exports = { calculateShippingCharge };
+module.exports = { calculateShippingCharge, getNearestWarehouse, determineTransportMode };

@@ -4,7 +4,7 @@
   "description": "This application is REST API made for Shipping Charge Cal from location, mode of transport etc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon index.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "express": "^4.21.1"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^2.0.20"
   }
 }

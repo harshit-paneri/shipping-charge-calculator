@@ -19,5 +19,6 @@
 
 ### Test Case
 
-- Test case is written in jest 
+ Test case is written in jest 
+
 ![alt text](/image/testcase.png)
